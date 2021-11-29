@@ -1,0 +1,39 @@
+html,
+body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator,
+.row {
+    display: flex;
+}
+
+#calculator {
+    flex-direction: column;
+    gap:8px;
+    background-color: lightslategrey;
+    padding: 24px;
+}
+.row {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+#display {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    width: 128px;
+}
+
+#calculator,
+button {
+    font-size: 64px;
+}
